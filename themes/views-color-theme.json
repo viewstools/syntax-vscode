@@ -1,0 +1,60 @@
+{
+	"name": "views",
+	"fileTypes": [
+		".view",
+    ".view.tests",
+    ".data"
+	],
+	"scopeName": "source.view",
+	"tokenColors": [
+		{
+			"settings": {
+				"background": "#000c18",
+				"foreground": "#6688cc"
+			}
+		},
+		{
+			"name": "Comments",
+			"scope": "comment.views",
+			"settings": {
+				"foreground": "#000000",
+        "background": "rgba(125, 177, 185, 0.7)"
+			}
+		},
+		{
+			"name": "Values",
+			"scope": "string",
+			"settings": {
+				"foreground": "#1fcc69"
+			}
+		},
+		{
+			"name": "Margin",
+			"scope": "number.margin.views",
+			"settings": {
+				"foreground": "#8F4BF2"
+			}
+		},{
+			"name": "Padding",
+			"scope": "number.padding.views",
+			"settings": {
+				"foreground": "#ffce00"
+			}
+		},
+		{
+			"name": "Blocks",
+			"scope": "keyword.block.views",
+			"settings": {
+				"foreground": "#ff8300"
+			}
+		},
+		{
+			"name": "Code",
+			"scope": "entity.name.function.code.views",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#00AEEF"
+			}
+		}
+	]
+}

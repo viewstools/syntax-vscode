@@ -1,0 +1,72 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Views",
+	"fileTypes":[
+		".view",
+    ".view.tests",
+    ".data"
+	],
+	"patterns": [
+	  {
+      "match": "^([A-Z][a-zA-Z0-9]*\\s*)$",
+      "name": "keyword.block.views"
+    },
+    {
+      "match": "^([A-Z][a-zA-Z0-9]*)\\s+is\\s+.+$",
+      "captures": {
+        "1": {
+          "name": "keyword.block.views"
+        }
+      }
+    },
+    {
+      "match": "^#.+$",
+      "name": "comment.views"
+    },
+    {
+      "begin": "^[a-z][a-zA-Z0-9]*\\s*",
+      "end": "$",
+      "patterns": [
+        {
+          "match": ".*(props|item).*",
+          "captures": {
+            "0": {
+              "name": "entity.name.function.code.views"
+            }
+          }
+        },
+        {
+          "match": ".*.data*",
+          "captures": {
+            "0": {
+              "name": "entity.name.function.code.views"
+            }
+          }
+        },
+        {
+          "match": ".+$",
+          "name": "string.value.views"
+        }
+      ]
+    },
+    {
+      "match": "^margin[a-zA-Z]*\\s*(.+)$",
+      "captures": {
+        "1": {
+          "name": "number.margin.views"
+        }
+      }
+    },
+    {
+      "match": "^padding[a-zA-Z]*\\s*(.+)$",
+      "captures": {
+        "1": {
+          "name": "padding.number.views"
+        }
+      }
+    }
+	],
+	"repository": {
+	},
+	"scopeName": "source.view"
+}

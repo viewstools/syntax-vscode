@@ -1,0 +1,32 @@
+{
+    "name": "views",
+    "displayName": "Views",
+    "description": "Views UI/UX syntax support",
+    "version": "0.0.1",
+    "publisher": "uxtemple",
+    "engines": {
+        "vscode": "^1.12.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "views",
+            "aliases": ["Views", "views"],
+            "extensions": [".view"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "views",
+            "scopeName": "source.view",
+            "path": "./syntaxes/views.tmLanguage.json"
+        }],
+        "themes": [{
+            "label": "views",
+            "language": "views",
+            "uiTheme": "vs-dark",
+            "path": "./themes/views-color-theme.json"
+        }]
+    }
+}
