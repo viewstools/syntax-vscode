@@ -2,7 +2,7 @@
   "name": "views",
   "displayName": "Views",
   "description": "Views UI/UX syntax support",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "uxtemple",
   "engines": {
     "vscode": "^1.12.0"
