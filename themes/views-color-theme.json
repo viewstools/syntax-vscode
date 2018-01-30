@@ -32,13 +32,6 @@
 			}
 		},
 		{
-			"name": "Padding",
-			"scope": "number.padding.views",
-			"settings": {
-				"foreground": "#ffce00"
-			}
-		},
-		{
 			"name": "Blocks",
 			"scope": "keyword.block.views",
 			"settings": {
