@@ -2,7 +2,7 @@
   "name": "views",
   "displayName": "Views",
   "description": "Views Tools UI/UX syntax support",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "uxtemple",
   "repository": "https://github.com/viewstools/syntax-vscode",
   "engines": {
