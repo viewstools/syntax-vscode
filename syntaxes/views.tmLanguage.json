@@ -1,13 +1,10 @@
 {
-	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-	"name": "Views",
-	"fileTypes":[
-		".view",
-    ".view.tests",
-    ".data"
-	],
-	"patterns": [
-	  {
+  "$schema":
+    "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "Views",
+  "fileTypes": [".view", ".view.tests", ".data"],
+  "patterns": [
+    {
       "match": "^([A-Z][a-zA-Z0-9]*\\s*)$",
       "name": "keyword.block.views"
     },
@@ -50,23 +47,14 @@
       ]
     },
     {
-      "match": "^margin[a-zA-Z]*\\s*(.+)$",
-      "captures": {
-        "1": {
-          "name": "number.margin.views"
-        }
-      }
+      "match": "^when.+$",
+      "name": "entity.name.function.code.views"
     },
     {
-      "match": "^padding[a-zA-Z]*\\s*(.+)$",
-      "captures": {
-        "1": {
-          "name": "padding.number.views"
-        }
-      }
+      "match": "^onWhen.+$",
+      "name": "onwhen.views"
     }
-	],
-	"repository": {
-	},
-	"scopeName": "source.view"
+  ],
+  "repository": {},
+  "scopeName": "source.view"
 }
