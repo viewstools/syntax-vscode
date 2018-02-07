@@ -33,15 +33,22 @@
       "end": "$",
       "patterns": [
         {
-          "match": ".*(props|item).*",
+          "match": "(<[a-z][a-zA-Z0-9]*)?\\ +(s*(.+)$)",
           "captures": {
-            "0": {
+            "1": {
               "name": "entity.name.function.code.views"
+            },
+            "2": {
+              "name": "string.value.views"
             }
           }
         },
         {
-          "match": ".*.data*",
+          "match": "<([a-z][a-zA-Z0-9]*)?",
+          "name": "entity.name.function.code.views"
+        },
+        {
+          "match": ".*item.*",
           "captures": {
             "0": {
               "name": "entity.name.function.code.views"

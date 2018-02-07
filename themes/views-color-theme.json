@@ -1,12 +1,20 @@
 {
 	"name": "views",
-	"fileTypes": [".view", ".view.tests", ".data"],
+	"fileTypes": [".view"],
 	"scopeName": "source.view",
 	"tokenColors": [
 		{
 			"settings": {
 				"background": "#000c18",
 				"foreground": "#6688cc"
+			}
+		},
+		{
+			"name": "UserComments",
+			"scope": "userComment.views",
+			"settings": {
+				"foreground": "#000000",
+				"background": "rgba(0, 0, 0, 0.7)"
 			}
 		},
 		{
