@@ -5,11 +5,11 @@
   "fileTypes": [".view", ".view.fake"],
   "patterns": [
     {
-      "match": "^([A-Z][a-zA-Z0-9]*\\s*)$",
+      "match": "^\\s*([A-Z][a-zA-Z0-9]*\\s*)$",
       "name": "keyword.block.views"
     },
     {
-      "match": "^([A-Z][a-zA-Z0-9]*)\\s+[a-z]*\\s*.+$",
+      "match": "^\\s*([A-Z][a-zA-Z0-9]*)\\s+[a-z]*\\s*.+$",
       "captures": {
         "1": {
           "name": "keyword.block.views"
@@ -17,19 +17,19 @@
       }
     },
     {
-      "match": "^#.+$",
+      "match": "^\\s*#.+$",
       "name": "comment.views"
     },
     {
-      "match": "^when.+$",
+      "match": "^\\s*when.+$",
       "name": "entity.name.function.code.views"
     },
     {
-      "match": "^onWhen.+$",
+      "match": "^\\s*onWhen.+$",
       "name": "onwhen.views"
     },
     {
-      "begin": "^[a-z][a-zA-Z0-9]*\\s*",
+      "begin": "^\\s*[a-z][a-zA-Z0-9]*\\s*",
       "end": "$",
       "patterns": [
         {
