@@ -1,17 +1,7 @@
-# Views Tools (views.tools) language support in Visual Studio Code
+# Views Tools language syntax highlighting for Visual Studio Code
 
-Should bring your `.view` files to life! :)
+Find out more about Views Tools in https://docs.views.tools
 
-
-To release a new version ensure you have the latest vsce:
-```
-npm install -g vsce
-```
-
-then run
-```
-vsce publish
-```
 
 License BSD-3-Clause
 
