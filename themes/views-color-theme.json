@@ -1,6 +1,6 @@
 {
 	"name": "views",
-	"fileTypes": [".view"],
+	"fileTypes": [".view", ".block"],
 	"scopeName": "source.view",
 	"tokenColors": [
 		{
