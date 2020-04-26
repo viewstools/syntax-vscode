@@ -2,7 +2,7 @@
   "name": "views",
   "displayName": "Views Tools language syntax",
   "description": "Views Tools UI/UX syntax support",
-  "version": "1.2.0",
+  "version": "23.0.0",
   "publisher": "uxtemple",
   "repository": "https://github.com/viewstools/syntax-vscode",
   "engines": {
@@ -21,7 +21,8 @@
         ],
         "extensions": [
           ".block",
-          ".view"
+          ".view",
+          ".blocks"
         ],
         "configuration": "./language-configuration.json"
       }
